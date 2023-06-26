@@ -3,10 +3,7 @@
 def generate_meeting_link(input_str):
     if len(input_str) != 10:
         raise
-    first = input_str[:3]
-    second = input_str[3:7]
-    third = input_str[7:]
-    return f"meet.google.com/{first}-{second}-{third}"
+    return f"meet.google.com/{input_str[:3]}-{input_str[3:7]}-{input_str[7:]}"
 
 
 def shift_input(input_str, distance):
