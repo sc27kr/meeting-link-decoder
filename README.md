@@ -1,6 +1,6 @@
 # Meeting Link Decoder
 
-A decoder to generate meeting link built with Python.
+A decoder to generate a meeting link built with Python.
 
 ## Getting started
 
